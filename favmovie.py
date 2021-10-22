@@ -5,6 +5,7 @@ import sqlite3
 
 connection = sqlite3.connect('favmovie_sqlite.db')
 
+# Communicating with the database using cursor method
 cursor = connection.cursor()
 
 # Create a TABLE movies that stores values
