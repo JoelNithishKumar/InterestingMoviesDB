@@ -1,6 +1,7 @@
 import sqlite3
 
 # Create a Database instance using connection and cursor
+#Connecting the database
 
 connection = sqlite3.connect('favmovie_sqlite.db')
 
